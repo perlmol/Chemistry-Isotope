@@ -1,6 +1,7 @@
 package Chemistry::Isotope;
 
 $VERSION = '0.10';
+# $Id$
 
 use strict;
 use warnings;

@@ -1,12 +1,9 @@
-Chemistry/Mol version 0.30
-==========================
+Chemistry::Isotope version 0.10
+===============================
 
-This toolkit includes basic objects and methods to describe molecules. It
-consists of several modules: Chemistry::Mol, Chemistry::Atom, Chemistry::Bond,
-and Chemistry::File. These are the core modules of the PerlMol toolkit;
-see http://www.perlmol.org/.
-
-CHANGES SINCE VERSION 0.26
+This module contains the exact mass data from the table of the isotopes.
+It has a single exportable function, isotope_mass, which returns the mass
+of an atom in mass units given its mass number (A) and atomic number (Z).
 
 INSTALLATION
 
@@ -20,8 +17,6 @@ To install this module type the following:
 DEPENDENCIES
 
 This module requires these other modules and libraries:
-    - Math::VectorReal
-    - Scalar::Util (already a core module since perl 5.7.3)
     - Test::More   (already a core module since perl 5.7.3)
 
 COPYRIGHT AND LICENSE
